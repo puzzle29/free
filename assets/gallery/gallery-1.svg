@@ -1,0 +1,16 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#090909" />
+  <rect width="1600" height="1000" fill="url(#paint0_linear)" />
+  <ellipse cx="812" cy="270" rx="180" ry="180" fill="#F0B766" fill-opacity="0.18" />
+  <ellipse cx="812" cy="270" rx="74" ry="74" fill="#FFF1D7" fill-opacity="0.72" />
+  <path d="M654 838C654 684.466 737.466 601 891 601H1036V1000H654V838Z" fill="#24120D" />
+  <path d="M572 880C572 728.14 643.14 657 795 657V1000H572V880Z" fill="#3E1E18" />
+  <text x="72" y="904" fill="#F8E9CD" font-family="Georgia, serif" font-size="92">Official Trailer</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#341812" />
+      <stop offset="0.6" stop-color="#0A0A0A" />
+      <stop offset="1" stop-color="#050505" />
+    </linearGradient>
+  </defs>
+</svg>

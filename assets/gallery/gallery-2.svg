@@ -1,0 +1,21 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#080808" />
+  <rect width="1600" height="1000" fill="url(#paint0_radial)" />
+  <rect width="1600" height="1000" fill="url(#paint1_linear)" fill-opacity="0.88" />
+  <ellipse cx="740" cy="245" rx="166" ry="166" fill="#F2C780" fill-opacity="0.16" />
+  <ellipse cx="741" cy="245" rx="62" ry="62" fill="#FFF5E4" fill-opacity="0.7" />
+  <path d="M612 786C612 615.896 698.896 529 869 529H1015V1000H612V786Z" fill="#130D0B" />
+  <path d="M540 850C540 673.311 623.311 590 800 590V1000H540V850Z" fill="#2D1914" />
+  <text x="78" y="140" fill="#F5E4C4" font-family="Arial, sans-serif" font-size="26" letter-spacing="6">SCENE STILL</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 238) rotate(90) scale(320 460)">
+      <stop stop-color="#9C5E2A" stop-opacity="0.64" />
+      <stop offset="1" stop-color="#090909" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="paint1_linear" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28140F" />
+      <stop offset="0.62" stop-color="#0A0A0A" />
+      <stop offset="1" stop-color="#050505" />
+    </linearGradient>
+  </defs>
+</svg>
