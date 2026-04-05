@@ -59,6 +59,7 @@ button {
 
 .hero {
   position: relative;
+  z-index: 20;
   min-height: 100vh;
   isolation: isolate;
   overflow: hidden;
@@ -120,7 +121,7 @@ button {
   top: 22px;
   left: 0;
   right: 0;
-  z-index: 20;
+  z-index: 100;
   width: min(calc(100% - 42px), var(--max-width));
   margin: 0 auto;
   display: flex;
@@ -456,6 +457,8 @@ button {
 }
 
 .section {
+  position: relative;
+  z-index: 1;
   padding: 72px 0;
 }
 
@@ -827,6 +830,8 @@ a.tour-preview-row:focus-visible {
 }
 
 .site-footer {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -1036,8 +1041,37 @@ a.tour-preview-row:focus-visible {
   }
 
   .hero-logo-block {
-    bottom: 12vh;
+    bottom: min(24vh, 180px);
     width: min(92vw, 520px);
+  }
+
+  .scroll-indicator {
+    bottom: 10px;
+    gap: 5px;
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+  }
+
+  .scroll-indicator-mouse {
+    width: 17px;
+    height: 28px;
+    border-width: 1px;
+  }
+
+  .scroll-indicator-wheel {
+    top: 5px;
+    width: 3px;
+    height: 6px;
+  }
+
+  .spotlight-card-media img {
+    max-height: 88vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .tour-preview-visual img {
+    object-position: top center;
   }
 }
 
